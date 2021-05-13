@@ -11,6 +11,7 @@ public class ToDo {
     @Id
     Integer id;
     String name;
+    String surname;
     String summary;
     String description;
 
@@ -22,6 +23,14 @@ public class ToDo {
         this.name = name;
         this.summary = summary;
         this.description = description;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
     public Integer getId() {
